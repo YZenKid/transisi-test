@@ -17,5 +17,6 @@ Project ini ditunjukkan untuk mengikuti test pada perusahaan PT Transisi Teknolo
 - Jalankan command 'php artisan migrate', tampa kutip.
 - Jalankan command 'php artisan db:seed', tampa kutip. Untuk membuat seeder employe.
 - Jalankan command 'php artisan passport:install', tampa kutip. Untuk install laravel passport key.
+- Jalankan command 'php artisan serve', tampa kutip. Untuk menjalakan server laravelnya.
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
