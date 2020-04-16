@@ -11,12 +11,11 @@
 
 Project ini ditunjukkan untuk mengikuti test pada perusahaan PT Transisi Teknologi Mandiri. Project ini dibuar sesuai arahan yang di tunjukkan dalam email yang dikirimkan. Untuk menjalankan apps ini sebagai berikut:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Jalankan command 'composer install', tampa kutip. Untuk install vendor yang diperlukan.
+- Dulpicate serta rename env.example menjadi .env.
+- Edit bagian database dan sesuaikan dengan database kosong yang anda buat.
+- Jalankan command 'php artisan migrate', tampa kutip.
+- Jalankan command 'php artisan db:seed', tampa kutip. Untuk membuat seeder employe.
+- Jalankan command 'php artisan passport:install', tampa kutip. Untuk install laravel passport key.
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
